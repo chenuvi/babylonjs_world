@@ -64,6 +64,30 @@ onMounted(() => init());
 
 <template>
   <canvas id="render-canvas" ref="renderCanvas"></canvas>
+  <!-- <div>
+    <div class="h-full text-center flex select-none all:transition-400">
+      <div class="ma">
+        <div
+          class="text-5xl fw100 animate-bounce-alt animate-count-infinite animate-duration-2s"
+        >
+          UnoCSS
+        </div>
+        <div class="op30 text-lg fw300 m1">
+          The instant on-demand Atomic CSS engine.
+        </div>
+        <div class="m2 flex justify-center text-2xl op30 hover:op80">
+          <a
+            class="text-inherit i-carbon-logo-github"
+            href="https://github.com/unocss/unocss"
+            target="_blank"
+          ></a>
+        </div>
+      </div>
+    </div>
+    <div class="absolute bottom-5 right-0 left-0 text-center op30 fw300">
+      on-demand · instant · fully customizable
+    </div>
+  </div> -->
 </template>
 
 <style lang="css" scoped>

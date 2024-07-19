@@ -14,8 +14,10 @@
     "vue-router": "^4.4.0"
   },
   "devDependencies": {
+    "@unocss/vite": "^0.61.5",
     "@vitejs/plugin-vue": "^5.0.5",
     "typescript": "^5.2.2",
+    "unocss": "^0.61.5",
     "vite": "^5.3.4",
     "vue-tsc": "^2.0.24"
   }
