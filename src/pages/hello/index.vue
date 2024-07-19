@@ -3,7 +3,7 @@ console.log("hello");
 </script>
 
 <template>
-  <H1>Hello</H1>
+  <h1>Hello</h1>
 </template>
 
 <style scoped></style>

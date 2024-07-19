@@ -1,5 +1,5 @@
 import { createRouter, createWebHistory } from "vue-router";
-import { Hello } from "../pages";
+import { Hello, Test } from "../pages";
 
 let loginPage = {
   path: "/",
@@ -8,9 +8,16 @@ let loginPage = {
   component: Hello,
 };
 
+let testPage = {
+  path: "/test",
+  name: "test",
+  title: "测试",
+  component: Test,
+};
+
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
-  routes: [loginPage],
+  routes: [loginPage, testPage],
 });
 
 export default router;
